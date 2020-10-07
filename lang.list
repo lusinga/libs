@@ -3,15 +3,6 @@ https://github.com/syl20bnr/spacemacs
 https://github.com/purcell/emacs.d
 
 https://github.com/microsoft/vscode
-https://github.com/microsoft/vscode-extension-samples
-https://github.com/microsoft/vscode-cpptools
-https://github.com/microsoft/vscode-python
-https://github.com/microsoft/vscode-cmake-tools
-https://github.com/microsoft/vscode-react-native
-https://github.com/microsoft/vscode-dev-containers
-https://github.com/microsoft/vscode-docker
-https://github.com/microsoft/vscode-js-debug
-https://github.com/microsoft/vscode-remote-release
 
 https://github.com/rust-lang/rust
 https://github.com/golang/go
@@ -30,7 +21,5 @@ https://github.com/JetBrains/intellij-samples
 https://github.com/qt/qt
 
 https://github.com/Kitware/CMake
-
-https://github.com/Z3Prover/z3
-https://github.com/stp/stp
-https://github.com/klee/klee
+https://github.com/svn2github/dosbox
+https://github.com/google/googletest
