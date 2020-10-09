@@ -4,3 +4,4 @@
 (assert (> a 10))
 (assert (< (f a true) 100))
 (check-sat)
+(get-model)
