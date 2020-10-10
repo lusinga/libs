@@ -18,6 +18,6 @@ int test(int n){
 
 int main(){
     int n;
-    klee_make_symbolic(&n,sizeof(int),"n");
+    klee_make_symbolic(&n,sizeof(n),"n");
     return test(n);
 }
