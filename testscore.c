@@ -1,3 +1,5 @@
+#include "klee/klee.h"
+
 char testscore(int score){
     if(score>100 || score <0){
         return 'E';
