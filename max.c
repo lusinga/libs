@@ -1,6 +1,6 @@
 #include "klee/klee.h"
 
-int max(int a, int b){
+int max2(int a, int b){
     if(a>b){
         return a;
     }else{
@@ -13,5 +13,5 @@ int main()
     int a,b;
     klee_make_symbolic(&a, sizeof(a), "a");
     klee_make_symbolic(&b, sizeof(b), "b");
-    return (testscore(a,b));
+    return (max2(a,b));
 }
