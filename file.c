@@ -12,7 +12,7 @@ int fileo(int n){
             return -1;
         }
         char data[10];
-        int nCount = fread(fp,data);
+        int nCount = fread(data,1,n,fp);
         fclose(fp);
         return nCount;
     }else{
