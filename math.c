@@ -25,7 +25,7 @@ int main(){
     int a;
     klee_make_symbolic(&a,sizeof(a),"a");
     float f;
-    klee_make_symbolic(%f,sizeof(f),"f");
+    klee_make_symbolic(&f,sizeof(f),"f");
     sqrt3(f);
     return(sqrt2(a));
 }
