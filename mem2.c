@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "klee/klee.h"
 
 int mem(int n){
     if(n<=0){
@@ -8,7 +9,7 @@ int mem(int n){
     if(pMem == NULL){
         return -2;
     }else{
-        pMem[0] = '0x55';
+        pMem[0] = (char)0x55;
         free(pMem);
         pMem = NULL;
         return n;
