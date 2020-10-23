@@ -4,10 +4,12 @@
 int mem(int n){
     if(n<=0){
         return -1;
+    }else if(int n>65536){
+        return -2;
     }
     char * pMem = (char*) malloc(n*sizeof(char));
     if(pMem == NULL){
-        return -2;
+        return -3;
     }else{
         pMem[0] = (char)0x55;
         free(pMem);
