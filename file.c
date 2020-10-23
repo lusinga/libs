@@ -6,7 +6,7 @@
 #include "klee/klee.h"
 
 int fileo(int n){
-    if(n<0){
+    if(n<=0){
         return -1;
     }
     FILE* fp = fopen("data.dat","r+");
