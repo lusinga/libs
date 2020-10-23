@@ -4,7 +4,7 @@
 int mem(int n){
     if(n<=0){
         return -1;
-    }else if(int n>65536){
+    }else if(n>65536){
         return -2;
     }
     char * pMem = (char*) malloc(n*sizeof(char));
