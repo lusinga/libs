@@ -4,9 +4,9 @@
 
 #include "klee/klee.h"
 
-char sign2(char a){
-    if(a>0){
-        if(a<-10){
+char check(char a, char b){
+    if(a>0 && b>0){
+        if(a+b<-10){
             return -2;
         }else{
             return 1;
@@ -19,7 +19,8 @@ char sign2(char a){
 }
 
 int main(void){
-    char a;
+    char a,b;
     klee_make_symbolic(&a,sizeof(a),"a");
-    return sign2(a);
+    klee_make_symbolic(&b,sizeof(b),"b");
+    return check(a,b);
 }
