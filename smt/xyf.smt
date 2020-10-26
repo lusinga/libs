@@ -1,4 +1,4 @@
-(set-option :print-success true) 
+(set-option :print-success false) 
 (set-option :produce-unsat-cores true) ; enable generation of unsat cores
 (set-option :produce-models true) ; enable model generation
 (set-option :produce-proofs true) ; enable proof generation
